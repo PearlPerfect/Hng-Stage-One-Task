@@ -34,6 +34,10 @@ body{
     margin: auto auto .5rem;
     padding: 2rem 1rem;
 }
+.title h2{
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 .timing{
     display: flex;
@@ -46,7 +50,7 @@ body{
 img[data-testid="slackDisplayImage"]{
     width: 14rem;
     border-radius: 5%;
-    margin: 1rem auto ;
+    margin: .5rem auto ;
 }
 
 
@@ -76,9 +80,7 @@ p[data-testid="currentDayOfTheWeek"]{
     img[data-testid="slackDisplayImage"]{
         width: 13rem;
     }
-    .title h1{
-        font-size: 1.5rem ;
-    }
+
     p[data-testid="currentUTCTime"],
     p[data-testid="myTrack"],
     p[data-testid="currentDayOfTheWeek"],
