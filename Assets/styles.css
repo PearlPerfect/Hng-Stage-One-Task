@@ -93,7 +93,7 @@ p[data-testid="currentDayOfTheWeek"]{
     img[data-testid="slackDisplayImage"]{
         width: 9.5rem;
     }
-    h1[data-testid="slackUserName"]{
+    h2[data-testid="slackUserName"]{
         font-size: 1.2rem;
     }
 
