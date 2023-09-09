@@ -48,7 +48,7 @@ body{
 }
 
 img[data-testid="slackDisplayImage"]{
-    width: 14rem;
+    width: 13rem;
     border-radius: 5%;
     margin: .5rem auto ;
 }
@@ -78,7 +78,7 @@ p[data-testid="currentDayOfTheWeek"]{
 
 @media (max-width: 650px){
     img[data-testid="slackDisplayImage"]{
-        width: 13rem;
+        width: 11.5rem;
     }
 
     p[data-testid="currentUTCTime"],
@@ -91,7 +91,7 @@ p[data-testid="currentDayOfTheWeek"]{
 }
 @media (max-width: 450px){
     img[data-testid="slackDisplayImage"]{
-        width: 11rem;
+        width: 9.5rem;
     }
     h1[data-testid="slackUserName"]{
         font-size: 1.2rem;
@@ -100,9 +100,7 @@ p[data-testid="currentDayOfTheWeek"]{
     a[data-testid=“githubURL”]{
     font-size: 1rem;
 }
-/* .text{
-    font-size: 2rem;
-} */
+
 .title h1{
     font-size: 1.2rem ;
 }

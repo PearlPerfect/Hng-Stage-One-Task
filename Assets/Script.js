@@ -35,5 +35,17 @@ function DayOfTheWeek(){
     currentDayOfTheWeek.innerHTML = `${days[date.getDay()]},`; 
 }
 DayOfTheWeek();
-setInterval(UTCTime, 0.001);
+function UTCMilliseconds(){
+    const date = new Date();
+    const Now = date.getTime();
+    currentUTCTime.textContent = `UTC In Milliseconds: ${Now}`
+}
+
+
+UTCMilliseconds();
+setInterval(function () {
+    UTCMilliseconds();
+    UTCTime();
+}, 0.001);
+
 
